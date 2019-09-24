@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/lab/basic/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/lab/basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/lab/basic/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/lab/object/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/lab/object/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/lab/object/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/lab/class_basic/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/lab/class_basic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/lab/class_basic/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ea-oop.netlify.com/ru/lab/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ea-oop.netlify.com/lab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://ea-oop.netlify.com/ru/lab/"
+                />
+  </url>
+  
+</urlset>
