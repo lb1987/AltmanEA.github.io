@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://altmanea.ru/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/figure/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/charcode/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/html/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/office/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/techfig/</loc>
+  </url>
+  
+  <url>
+    <loc>http://altmanea.ru/markdown/</loc>
+  </url>
+  
+</urlset>
