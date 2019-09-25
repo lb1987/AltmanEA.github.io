@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Лабораторные on Course OOP</title>
-    <link>https://ea-oop.netlify.com/ru/lab/</link>
+    <link>https://altmanea.ru/oop/ru/lab/</link>
     <description>Recent content in Лабораторные on Course OOP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://ea-oop.netlify.com/ru/lab/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://altmanea.ru/oop/ru/lab/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Основы Kotlin</title>
-      <link>https://ea-oop.netlify.com/ru/lab/basic/</link>
+      <link>https://altmanea.ru/oop/ru/lab/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ea-oop.netlify.com/ru/lab/basic/</guid>
+      <guid>https://altmanea.ru/oop/ru/lab/basic/</guid>
       <description>Краткие теоретические сведения Лекции
 Задание Данное задание предназначено для ознакомления с языком Kotlin. Для его выполнения нужно создать программу для поиска анаграмм. Анаграммы это слова (или фразы), состоящие из одинаковых букв, но расположенных в различном порядке, например: «автор» — «товар». Программ должна состоят из нескольких функций, приводящих список слов к форме, удобной для быстрого поиска. Список слов может быть взят тут (файл «20k.txt»).
 Создайте и протестируйте следующие функции:
@@ -24,10 +24,10 @@
     
     <item>
       <title>2. Объекты</title>
-      <link>https://ea-oop.netlify.com/ru/lab/object/</link>
+      <link>https://altmanea.ru/oop/ru/lab/object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ea-oop.netlify.com/ru/lab/object/</guid>
+      <guid>https://altmanea.ru/oop/ru/lab/object/</guid>
       <description>Теория Лекции
 Задание Разработайте игру «Крестики-нолики».
 Игровое поле следует создать с использованием контейнера JPanel() с использованием разметки Gridlayout(3,3). Ячейки игрового поля реализуются с помощью объектов типа JBUtton.
@@ -36,10 +36,10 @@
     
     <item>
       <title>3 Основы классов</title>
-      <link>https://ea-oop.netlify.com/ru/lab/class_basic/</link>
+      <link>https://altmanea.ru/oop/ru/lab/class_basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ea-oop.netlify.com/ru/lab/class_basic/</guid>
+      <guid>https://altmanea.ru/oop/ru/lab/class_basic/</guid>
       <description>Теория Лекции Начальный исходный код
 Задание   Создайте класс &#34;Controller&#34;: class Controller( var state: State = State() ) { val view = View(this) var checkedCell: Int? = null   Обновите классы &#34;Game&#34; и &#34;View&#34; так, чтобы они работали с классом &#34;Controller&#34;.  Изменив класс &#34;View&#34; установите фон элементов типа JButton так, чтобы игровое поле выглядело как шахматная доска. В случае, если в объекте класса &#34;Controller&#34; поле &#34;checkedCell&#34; не нулевое, установите фон соответствующей кнопки в какой-либо цвет.</description>
     </item>
