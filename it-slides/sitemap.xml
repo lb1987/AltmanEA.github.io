@@ -3,45 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://altmanea.ru/categories/</loc>
+    <loc>http://altmanea.ru/it-slides/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/tags/</loc>
+    <loc>http://altmanea.ru/it-slides/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/intro/</loc>
+    <loc>http://altmanea.ru/it-slides/intro/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/figure/</loc>
+    <loc>http://altmanea.ru/it-slides/figure/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/charcode/</loc>
+    <loc>http://altmanea.ru/it-slides/charcode/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/</loc>
+    <loc>http://altmanea.ru/it-slides/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/html/</loc>
+    <loc>http://altmanea.ru/it-slides/html/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/office/</loc>
+    <loc>http://altmanea.ru/it-slides/office/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/techfig/</loc>
+    <loc>http://altmanea.ru/it-slides/techfig/</loc>
   </url>
   
   <url>
-    <loc>http://altmanea.ru/markdown/</loc>
+    <loc>http://altmanea.ru/it-slides/markdown/</loc>
   </url>
   
 </urlset>

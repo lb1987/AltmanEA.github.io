@@ -5,7 +5,7 @@
   - [Лабораторные](https://altmanea.ru/it/lab/)
   - [Самостоятельная](https://altmanea.ru/it/self/)
 
-- Объектно-ориентированное программирование.
+- Объектно-ориентированное программирование
   - [Слайды](https://altmanea.ru/oop-slides)
   - [Лабораторные](https://altmanea.ru/oop/ru/lab/)
 
