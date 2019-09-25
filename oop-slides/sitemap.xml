@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://altmanea.ru/oop-slides/categories/</loc>
+    <loc>https://altmanea.ru/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://altmanea.ru/oop-slides/class/</loc>
+    <loc>https://altmanea.ru/class/</loc>
   </url>
   
   <url>
-    <loc>https://altmanea.ru/oop-slides/basic/</loc>
+    <loc>https://altmanea.ru/basic/</loc>
   </url>
   
   <url>
-    <loc>https://altmanea.ru/oop-slides/</loc>
+    <loc>https://altmanea.ru/</loc>
   </url>
   
   <url>
-    <loc>https://altmanea.ru/oop-slides/object/</loc>
+    <loc>https://altmanea.ru/object/</loc>
   </url>
   
   <url>
-    <loc>https://altmanea.ru/oop-slides/tags/</loc>
+    <loc>https://altmanea.ru/tags/</loc>
     <priority>0</priority>
   </url>
   
