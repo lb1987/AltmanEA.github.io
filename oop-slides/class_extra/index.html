@@ -329,6 +329,130 @@ fun demo(x: Comparable< Number>) {
 </code></pre> 
 
 </section>
+
+</section><section>
+
+<section data-shortcode-section>
+<h2 id="misc-class-feathers">Misc class  feathers</h2>
+
+</section><section>
+
+<h3 id="extension-functions">Extension functions</h3>
+
+<pre><code class="Kotlin">fun < T > Array< T >.swap(index1: Int, index2: Int){
+    val tmp = this[index1]
+    this[index1] = this[index2]
+    this[index2] = tmp
+}</code></pre> 
+
+</section><section>
+
+<h3 id="extension-properties">Extension properties</h3>
+
+<pre><code class="Kotlin">val < T > Array< T >.lastIndex: Int
+    get() = size - 1</code></pre> 
+
+</section><section>
+
+<h3 id="companion-objects">Companion Objects</h3>
+
+<pre><code class="Kotlin">class MyData private constructor(val id:Int){    
+    companion object{
+        var lastId = 0
+    }
+    fun makeData() = MyData(lastId++)    
+}</code></pre> 
+
+</section><section>
+
+<h3 id="object-declaration">Object declaration</h3>
+
+<pre><code class="Kotlin">window.addMouseListener(object : MouseAdapter() {
+    override fun mouseClicked(e: MouseEvent) { /*...*/ }
+
+    override fun mouseEntered(e: MouseEvent) { /*...*/ }
+})</code></pre> 
+
+</section><section>
+
+<h3 id="data-class">Data class</h3>
+
+<pre><code class="Kotlin">data class User(val name: String, val age: Int)</code></pre> 
+
+<ul>
+<li>equals()/hashCode();</li>
+<li>toString() (&ldquo;User(name=John, age=42)&rdquo;);</li>
+<li>componentN();</li>
+<li>copy().</li>
+</ul>
+
+</section><section>
+
+<h3 id="destructuring-declarations">Destructuring Declarations</h3>
+
+<pre><code class="Kotlin">val (name, age) = person</code></pre> 
+
+<pre><code class="Kotlin">val name = person.component1()
+val age = person.component2()</code></pre> 
+
+</section><section>
+
+<h3 id="enum-classes">Enum classes</h3>
+
+<pre><code class="Kotlin">enum class Direction {
+    NORTH, SOUTH, WEST, EAST
+}</code></pre> 
+
+<pre><code class="Kotlin">enum class Color(val rgb: Int) {
+        RED(0xFF0000),
+        GREEN(0x00FF00),
+        BLUE(0x0000FF)
+}</code></pre> 
+
+</section><section>
+
+<h3 id="sealed-classes">Sealed classes</h3>
+
+<pre><code class="Kotlin">sealed class Expr
+data class Const(val number: Double) : Expr()
+data class Sum(val e1: Expr, val e2: Expr) : Expr()
+object NotANumber : Expr()</code></pre> 
+
+<pre><code class="Kotlin">fun eval(expr: Expr): Double = when(expr) {
+    is Const -> expr.number
+    is Sum -> eval(expr.e1) + eval(expr.e2)
+    NotANumber -> Double.NaN
+    // the `else` clause is not required 
+    // because we've covered all the cases
+}</code></pre> 
+
+</section><section>
+
+<h3 id="nested-and-inner-classes">Nested and inner classes</h3>
+
+<pre><code class="Kotlin">class Outer {
+    private val bar: Int = 1
+    class Nested {
+        fun foo() = 2
+    }
+}
+val demo = Outer.Nested().foo() // == 2</code></pre> 
+
+<pre><code class="Kotlin">class Outer {
+    private val bar: Int = 1
+    inner class Inner {
+        fun foo() = bar
+    }
+}
+val demo = Outer().Inner().foo() // == 1</code></pre> 
+
+</section><section>
+
+<h3 id="type-aliases">Type aliases</h3>
+
+<pre><code class="Kotlin">typealias Anagram = Array< Array < String > ></code></pre> 
+
+</section>
 </section>
 
   
