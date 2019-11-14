@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>3 Основы классов - Course OOP</title>
+<title>4 Коллекции - Course OOP</title>
 <meta name="generator" content="Hugo 0.55.6" />
 <link href="https://altmanea.ru/oopindex.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://altmanea.ru/oop/ru/lab/class_basic/">
+<link rel="canonical" href="https://altmanea.ru/oop/ru/lab/collections/">
 <link rel="stylesheet" href="/oop/css/theme.min.css">
 <script src="/oop/js/all.js"></script>
 <link rel="stylesheet" href="/oop/css/chroma.min.css">
@@ -48,41 +48,31 @@
 <li><a href="https://altmanea.ru">Home</a></li>
 <li><a href="https://altmanea.ru/oop-slides">Slides</a></li>
 		
-		<li><a href="https://altmanea.ru/oop/lab/class_basic/">English</a></li>
+		<li><a href="https://altmanea.ru/oop/lab/collections/">English</a></li>
 	
 
 </ul>
 </nav>
 </div>
 <div class="content-container">
-<main><h1>3 Основы классов</h1>
+<main><h1>4 Коллекции</h1>
 
 <h1 id="теория">Теория</h1>
 
-<p><a href="https://altmanea.ru/oop-slides/class">Лекции</a>
-<a href="https://github.com/AltmanEA/boardGames/tree/master/src/decomposition">Начальный исходный код</a></p>
+<p><a href="https://github.com/AltmanEA/KotlinExamples/tree/master/basic/collections">Пример проекта</a></p>
 
 <h1 id="задание">Задание</h1>
 
-<ol>
-<li> Создайте класс "Controller":
-<pre><code class="language-[Kotlin]">
-class Controller(
-    var state: State = State()
-) {
-    val view = View(this)
-
-    var checkedCell: Int? = null
-</code></pre>
-</li>
-<li>Обновите классы "Game" и "View" так, чтобы они работали с классом "Controller".</li>
-<li> Изменив класс "View" установите фон элементов типа JButton так, чтобы игровое поле выглядело как шахматная доска. В случае, если в объекте класса "Controller" поле "checkedCell" не нулевое, установите фон соответствующей кнопки в какой-либо цвет.</li>
-<li>Добавьте функцию  <pre><code class="language-[Kotlin]">fun onClick(index: Int)</code></pre> к классу "Controller". Если поле "checkedCell" нулевое, то эта функция записывает в него значение "index". Иначе, она проверяет возможность выполнить ход с поля с номером "checkedCell" на поле с номером "index". Если ход допускается по правилам игры, то в контроллере создается новое состояние "State", которое получается после выполнения этого хода.</li>
-</ol>
+<ul>
+<li>Улучшите класс <code>Board</code> добавив в него коллекцию множеств соседей для каждой ячейки доски. Эта коллекция создается во время инициализации объекта класса с помощью функции <code>getNeighbors</code>. Обновите другие классы проекта для работы с этой функцией и выполните все тесты.</li>
+<li>Улучшите класс <code>Dict</code> добавив функцию  <code>getWords</code> которая возвращает списков слов в которые входит переданная функции подстрока. Добавьте кэширование результатов функции в карту <code>hash</code>. Протестируйте эту функцию.</li>
+<li>Улучшите класс <code>Thinker</code> добавив функци <code>getBestMove</code> которая находит лучший ход сравнивая возможные ходы с возможными ответными ходами.  Протестируйте эту функцию.</li>
+<li>Реализуйте игру `<code>Balda</code> с графическим интерфейсом (факультативно).</li>
+</ul>
 <div class="edit-meta">
 
-<br></div><nav class="pagination"><a class="nav nav-prev" href="/oop/ru/lab/object/" title="2. Объекты"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - 2. Объекты</a>
-<a class="nav nav-next" href="/oop/ru/lab/collections/" title="4 Коллекции">Next - 4 Коллекции <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<br></div><nav class="pagination"><a class="nav nav-prev" href="/oop/ru/lab/class_basic/" title="3 Основы классов"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - 3 Основы классов</a>
+<a class="nav nav-next" href="/oop/ru/lab/basic/" title="1. Основы Kotlin">Next - 1. Основы Kotlin <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><script src="https://utteranc.es/client.js"
         repo="AltmanEA/AltmanEA.github.io"
         issue-term="pathname"
@@ -100,8 +90,8 @@ class Controller(
 <ul class="sub-menu">
 <li class=""><a href="/oop/ru/lab/basic/">1. Основы Kotlin</a></li>
 <li class=""><a href="/oop/ru/lab/object/">2. Объекты</a></li>
-<li class="active"><a href="/oop/ru/lab/class_basic/">3 Основы классов</a></li>
-<li class=""><a href="/oop/ru/lab/collections/">4 Коллекции</a></li>
+<li class=""><a href="/oop/ru/lab/class_basic/">3 Основы классов</a></li>
+<li class="active"><a href="/oop/ru/lab/collections/">4 Коллекции</a></li>
 </ul>
   
 </li>

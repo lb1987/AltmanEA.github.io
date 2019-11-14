@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://altmanea.ru/oop/ru/lab/collections/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://altmanea.ru/oop/lab/collections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://altmanea.ru/oop/ru/lab/collections/"
+                />
+  </url>
+  
+  <url>
     <loc>https://altmanea.ru/oop/ru/categories/</loc>
     <priority>0</priority>
     <xhtml:link
